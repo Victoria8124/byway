@@ -1,0 +1,43 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.label {
+  font-size: 14px;
+  color: #fff;
+}
+
+.inputInner {
+  display: flex;
+  align-items: center;
+  background: #212225;
+  border-radius: 24px;
+  padding: 0 12px;
+  height: 40px;
+  gap: 8px;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.leftIcon,
+.rightIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 16px;
+  height: 16px;
+}

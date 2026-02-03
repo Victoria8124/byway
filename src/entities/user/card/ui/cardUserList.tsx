@@ -3,7 +3,7 @@ import { User } from "./user.data";
 
 const CardUserList = () => {
   return (
-    <div className="m-4">
+    <div>
       {User.map((user) => (
         <CardUser key={user.avatarUrl} user={user} />
       ))}
