@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <nav className="flex flex-col gap-2">
+        <nav aria-label="Get help navigation" className="flex flex-col gap-2">
           <h4 className="text-2xl text-nowrap">Get Help</h4>
           <ul>
             <li className="text-sm">Contact Us</li>

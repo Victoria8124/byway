@@ -1,14 +1,20 @@
-import Card from "./card";
-import { Data } from "./card.data"
+import { useContext } from 'react';
+import { LevelContext } from '../../../../context/LevelContext';
+import Card from './card';
 
 const CardList = () => {
-    return ( 
-        <div className="flex gap-10">
-            {Data.map((card) => (
-                <Card key={card.url} card={card}/>
-            ))}
-        </div>
-     );
-}
- 
+  const context = useContext(LevelContext);
+
+  if (!context) return null;
+
+  const { cards } = context;
+  return (
+    <div className="flex gap-10">
+      {cards.map((card) => (
+        <Card key={card.url} card={card} />
+      ))}
+    </div>
+  );
+};
+
 export default CardList;

@@ -1,4 +1,4 @@
 export interface IStatus {
-    text: string;
-    sum: string;
+  text: string;
+  sum: string;
 }

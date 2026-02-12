@@ -9,3 +9,46 @@
 .button:active {
   transform: scale(0.98);
 }
+
+.primary {
+  width: fit-content;
+  background-color: #18191b;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 12px;
+  border-radius: 24px;
+  white-space: nowrap;
+}
+
+.outline {
+  border: 2px solid;
+  padding: 6px 14px;
+  border-radius: 24px;
+  font-size: 18px;
+  background-color: transparent;
+  text-wrap: nowrap;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue {
+  border-color: #9eb1ffb8;
+}
+
+.cyan {
+  border-color: #4ccce6b8;
+}
+
+.outline:hover {
+  border-color: #ccc;
+}

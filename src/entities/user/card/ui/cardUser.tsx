@@ -1,4 +1,4 @@
-import type { IUser } from "../model/card.type";
+import type { IUser } from '../model/card.type';
 
 export interface Props {
   user: IUser;
