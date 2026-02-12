@@ -1,9 +1,9 @@
-import CardList from "../../entities/category/card/ui/cardList";
-import CardCompactList from "../../entities/course/card-compact/ui/cardCompactList";
-import StatusList from "../../entities/status/ui/statusList";
-import CardUserList from "../../entities/user/card/ui/cardUserList";
-import InfoSection from "../../widgets/info-section/ui/InfoSection";
-import SectionHeader from "../../widgets/section-header/ui/sectionHeader";
+import CardList from '../../entities/category/card/ui/cardList';
+import CardCompactList from '../../entities/course/card-compact/ui/cardCompactList';
+import StatusList from '../../entities/status/ui/statusList';
+import CardUserList from '../../entities/user/card/ui/cardUserList';
+import InfoSection from '../../widgets/info-section/ui/InfoSection';
+import SectionHeader from '../../widgets/section-header/ui/sectionHeader';
 
 const Home = () => {
   return (

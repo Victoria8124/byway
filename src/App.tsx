@@ -1,6 +1,6 @@
-import Home from "./pages/user/home";
-import Footer from "./widgets/footer/ui/footer";
-import Header from "./widgets/header/ui/header";
+import Home from './pages/user/home';
+import Footer from './widgets/footer/ui/footer';
+import Header from './widgets/header/ui/header';
 
 function App() {
   return (
@@ -12,4 +12,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
